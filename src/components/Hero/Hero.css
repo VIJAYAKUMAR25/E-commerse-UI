@@ -1,0 +1,87 @@
+
+.hero{
+   height: 100%;
+   background: linear-gradient(to top, black 30%, #130749 70%);
+
+   
+}
+.hero-main{
+    margin-top: 25px;
+
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    line-height: 1.1;
+    padding: 8rem;
+}
+.hero-left h2{
+    color: #eebbc3;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.hero-left p{
+    color: #2d2e32;
+    font-size: 6rem;
+    font-weight: 700;
+}
+.hero-hand-icon{
+    display: flex;
+    gap: 1rem;
+}
+.hero-hand-icon img{
+    width: 7rem;
+    height: 7rem;
+}
+.hero-latest-btn{
+    display: flex;
+    width: 18rem;
+    height: 4rem;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #232946;
+    background-color: #eebbc3;
+    cursor: pointer;
+}
+.hero-latest-btn span{
+    display: inline-block;
+    transition: all 1s;
+    font-weight: bold;
+}
+.hero-latest-btn :hover span{
+    padding-left: 10px;
+    transition: all 1s;
+}
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-right img{
+    width: 35rem;
+    height: 45rem;
+}
+@media (max-width:600px){
+    .hero-left p{
+        font-size: 3.5rem;
+    }
+    .hero-left{
+        padding: 4rem;
+    }
+}
+@media (max-width:990px){
+    .hero-left p{
+        font-size: 3rem;
+    }
+    .hero-left{
+        align-items: center;
+    }
+}
+

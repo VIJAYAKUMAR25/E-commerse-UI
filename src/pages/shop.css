@@ -1,0 +1,9 @@
+.Shop{
+    padding: 0px 50px;
+}
+
+@media (max-width:900px){
+    .Shop{
+        padding: 0;
+    }
+}

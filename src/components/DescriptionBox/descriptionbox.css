@@ -1,0 +1,30 @@
+.decriptionbox{
+    margin: 2rem 8rem;
+}
+.descriptionbox-navigator{
+    display: flex;
+}
+.description-nav-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 15rem;
+    height: 5rem;
+    border: 1px solid #d0d0d0;
+}
+.description-nav-box.light{
+    background:#FBFBFB;
+}
+.descriptionbox-description{
+    display: flex;
+    border: 1px solid #2d2e32;
+    padding: 10px;
+    padding-bottom: 4rem;
+}
+@media (max-width:800px) {
+    .decriptionbox{
+        margin: 1rem;
+    }
+}
