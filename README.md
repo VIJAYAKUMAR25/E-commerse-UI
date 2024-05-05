@@ -2,6 +2,7 @@
 ![Shoping Cart](front-end/src/components/Assets/grocery.gif)
 
 
+
 # E-Commerce Frontend
 
 Welcome to the frontend repository of our E-Commerce project! This frontend application is built using React.js to provide a dynamic and interactive user interface for our e-commerce website.
