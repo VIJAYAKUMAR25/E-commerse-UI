@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import './NewCollection.css'
 import { Item } from "../item/item";
 import new_collection from '../Assets/new_collections.js';

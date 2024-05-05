@@ -47,12 +47,12 @@ const ProductDisplay = (props) =>{
                     <p className="mt-3">(537)</p>
                     <ToastContainer
                         position="top-right"
-                        autoClose={5000}
+                        autoClose={1000}
                         hideProgressBar={false}
                         newestOnTop={false}
                         closeOnClick
                         rtl={false}
-                        style={{marginTop:'200px'}}
+                        style={{marginTop:'200px',width:'230px'}}
                         pauseOnFocusLoss
                         draggable
                         pauseOnHover
